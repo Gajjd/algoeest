@@ -20,6 +20,6 @@ if idade >=18:
         else:
             print("Recusado")
     else:
-        print("Recusado")
+        print("Digite apenas: (sim), (não) ou (acompanhado)")
 else:
     print("Recusado")
