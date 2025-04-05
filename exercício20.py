@@ -1,7 +1,8 @@
 idade = int(input("Idade: "))
 membro = input("Membro (sim/não/acompanhado): ").lower()
 acesso = False
-if idade >=18:
+
+if idade >= 18:
     if membro == "sim":
         acesso = True
         print("Liberado")
